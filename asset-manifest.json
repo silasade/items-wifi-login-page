@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/items-wifi-login-page/static/css/main.eaa8301f.css",
+    "main.js": "/items-wifi-login-page/static/js/main.2c6ebb73.js",
+    "static/js/787.840af7a5.chunk.js": "/items-wifi-login-page/static/js/787.840af7a5.chunk.js",
+    "static/media/login-bg.jpeg": "/items-wifi-login-page/static/media/login-bg.a2e65877afc4de269368.jpeg",
+    "static/media/faq.png": "/items-wifi-login-page/static/media/faq.a7d8b6714e6e0a56faad.png",
+    "static/media/email60.png": "/items-wifi-login-page/static/media/email60.b94238908bebe19f2f01.png",
+    "static/media/lms3.png": "/items-wifi-login-page/static/media/lms3.8b5b233762c9d71e328d.png",
+    "static/media/gmail4.png": "/items-wifi-login-page/static/media/gmail4.f278567b568255065801.png",
+    "static/media/logox.png": "/items-wifi-login-page/static/media/logox.bf5bde8de5ee80425e09.png",
+    "static/media/Stafficon.png": "/items-wifi-login-page/static/media/Stafficon.16ea29595dc969b4bfe9.png",
+    "index.html": "/items-wifi-login-page/index.html",
+    "main.eaa8301f.css.map": "/items-wifi-login-page/static/css/main.eaa8301f.css.map",
+    "main.2c6ebb73.js.map": "/items-wifi-login-page/static/js/main.2c6ebb73.js.map",
+    "787.840af7a5.chunk.js.map": "/items-wifi-login-page/static/js/787.840af7a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa8301f.css",
+    "static/js/main.2c6ebb73.js"
+  ]
+}
