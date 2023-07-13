@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import logo from "./logox.png"
+import Title from './Components/Title';
+import Form from './Components/Form'
+import End from './Components/End';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container-fluid">
+      <div className='logo'>
+      <img className='img-fluid' src={logo}/>
+        
+      </div>
+      <br/>
+        
+      <Title/>
+      
+      <Form/>
+      <End/>
     </div>
   );
 }

@@ -1,38 +1,140 @@
-.App {
+body{
+  background: url(./login-bg.jpeg) no-repeat center center / cover;
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.a {
+  position: relative;
+}
+
+.a::after {
+  content: attr(href);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.a:hover::after {
+  opacity: 1;
+}
+
+
+button:hover{
+  
+  
+	color: #7f8385;
+}
+input{
+  outline: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 3%;
+}
+input[type="submit"]:hover{
+  background: #2c97ea;
+  
+	font-weight: 700;
+}
+.h6{
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="submit"]{
+  background-color: orangered;
+  color: white;
+  border: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 7%;
 }
+.troubles{
+  text-decoration: none;
+}
+.icons{
+  width: 10%;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 500px;
+  min-width: 150px;
+  padding: 5%;
+  background-color: #fff;
+  gap: 20px;
+  margin: 0;
+  
+}
+.logo{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5%;
+  color: #7f8385;
+  font-size: 90%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App{
+  max-width: 500px;
+  min-width: 150px;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.trouble{
+  display: flex;
+  
+  justify-content: end;
+}
+@media(max-width:700px){
+  .App{
+    
+    margin: 6% auto;
+    
+    
   }
-  to {
-    transform: rotate(360deg);
+}
+@media(max-width:450px){
+  .App{
+    
+    margin: 8% auto;
+    
+    
+  }
+  p{
+    font-size: 70%;
+  }
+}
+@media(max-width:350px){
+  .App{
+    
+    margin: 21% auto;
+    
+    
+  }
+  p{
+    font-size: 50%;
   }
 }
